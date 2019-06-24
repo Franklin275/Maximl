@@ -1,0 +1,8 @@
+b=input()
+a=[]
+c=0
+for i in range(0,len(b)):
+    a.append(i)
+a=list(dict.fromkeys(b))
+length=len(a)
+print(length)
